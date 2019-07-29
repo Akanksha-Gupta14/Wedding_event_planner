@@ -1,0 +1,47 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+
+	xmlns:ma="urn:import:gwt.material.design.client.data.component">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<!-- <m:MaterialRow ui:field="cards" grid=" s5 m6 l6">
+			<m:MaterialColumn  grid="s6 m6 l6" offset="l4">
+				<m:MaterialCard backgroundColor="WHITE">
+					<m:MaterialCardImage waves="LIGHT">
+						<m:MaterialImage
+							url="https://assets.materialup.com/uploads/ac9bf2ac-bf1c-4dc0-b655-0e13bf523bc8/20150710-__.png" />
+						<m:MaterialCardTitle text="Sample" />
+					</m:MaterialCardImage>
+					<m:MaterialCardContent textColor="BLACK">
+						<m:MaterialLabel
+							text="Just over a year ago,we became fascinated by the idea of developing a web application where people can compare the event planner according to their location as well as budget.While their are many other way to have a dream event, we realised that there is no better way to experience the best util you have many choices." />
+					</m:MaterialCardContent>
+				</m:MaterialCard>
+			</m:MaterialColumn>
+		</m:MaterialRow> -->
+ <m:MaterialDialog ui:field="dialog" type="DEFAULT" dismissible="false"
+	inDuration="500" outDuration="500">
+	<m:MaterialDialogContent>
+		<m:MaterialTitle title="Just For You"
+			description="Just over a year ago,we became fascinated by the idea of developing a web application where people can compare the event planner according to their location as well as budget.While their are many other way to have a dream event, we realised that there is no better way to experience the best until you have many choices." textColor="Red"/>
+	</m:MaterialDialogContent>
+	<m:MaterialDialogFooter>
+		<m:MaterialButton ui:field="btnCloseDialog" text="Close" type="FLAT" />
+	</m:MaterialDialogFooter>
+</m:MaterialDialog> 
+ <m:MaterialButton text="Show Dialog" ui:field="btnDialog" waves="LIGHT"/>
+		<m:MaterialRow ui:field="cards" grid=" s5 m6 l6">
+			<m:MaterialColumn  grid="s6 m6 l6" offset="l4">
+		<m:MaterialTextArea ui:field="t1" readOnly="true" fontSize="5em" label="About"
+			text="Just over a year ago,we became fascinated by the idea of developing a web application where people can compare the event planner according to their location as well as budget.While their are many other way to have a dream event, we realised that there is no better way to experience the best until you have many choices."
+			  />
+			</m:MaterialColumn>
+			</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 

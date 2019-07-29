@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:ma="com.google.gwt.core.client.GWT"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+	<ui:style>
+	 
+	 .block{
+      display: block;
+      margin-bottom: 10px;
+    }
+	
+	</ui:style>
+
+
+	<g:HTMLPanel>
+
+
+		<table>
+
+			<h1>Planner Services</h1>
+			<tr>
+
+
+				<td>
+					<m:MaterialRow grid="s5 m6 l6" >
+						<m:MaterialColumn grid="s12 m8 l6" offset="l4">
+						   <m:MaterialTextBox width="45%"
+								backgroundColor="WHITE" label="Company name"
+								ui:field="t20" />
+								<m:MaterialTextBox width="45%"
+								backgroundColor="WHITE" label="Enter Location"
+								ui:field="t21" />
+								
+							<m:MaterialTextBox width="45%"
+								backgroundColor="WHITE" label="GATHERING(Enter no of people)"
+								ui:field="t1" />
+							<m:MaterialLabel value="VENUE" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t2" text="Open Area" name="VENUE" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t3" text="Closed Area" name="VENUE" />
+							<m:MaterialLabel value="DECORATION" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t4" text="Gold" name="DECORATION" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t5" text="Silver" name="DECORATION" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t6" text="Platinum" name="DECORATION" />
+							<m:MaterialLabel value="CATERER" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t7" text="Breakfast" name="color" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t8" text="Lunch" name="color" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t9" text="Dinner" name="color" />
+							<m:MaterialLabel value="LABOUR" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t10" text="10" name="LABOUR" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t11" text="20" name="LABOUR" />
+							<m:MaterialRadioButton type="GAP" width="45%"
+								ui:field="t12" text="30" name="LABOUR" />
+							<m:MaterialLabel value="ADD ON" />
+							<m:MaterialCheckBox width="45%" ui:field="t13"
+								text="Check all" type="FILLED" />
+							<m:MaterialCheckBox width="45%" ui:field="t14"
+								text="Transport" type="FILLED" />
+							<m:MaterialCheckBox width="45%" ui:field="t15"
+								text="DJ" type="FILLED" />
+							<m:MaterialCheckBox width="45%" ui:field="t16"
+								text="Choreographer" type="FILLED" />
+							<m:MaterialCheckBox width="45%" ui:field="t17"
+								text="Special Guest(Celebrity)" type="FILLED" />
+						</m:MaterialColumn>
+					</m:MaterialRow>
+				</td>
+
+			</tr>
+			<m:MaterialRow grid="s5 ">
+				<m:MaterialColumn grid="s12 " offset="l4">
+					
+
+					<m:MaterialButton width="10%" ui:field="t19"
+						text="SUBMIT" iconPosition="RIGHT" textColor="WHITE" waves="LIGHT"
+						backgroundColor="PINK_DARKEN_2" />
+					<!-- <m:MaterialButton ui:field="Back1" text="Back"
+						waves="LIGHT" backgroundColor="PINK_DARKEN_2" textColor="WHITE"
+						width="10%" /> -->
+				</m:MaterialColumn>
+			</m:MaterialRow>
+		</table>
+
+	</g:HTMLPanel>
+
+</ui:UiBinder>

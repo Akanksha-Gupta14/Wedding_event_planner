@@ -1,0 +1,82 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+    xmlns:ma="urn:import:gwt.material.design.client.data.component"
+     xmlns:client="urn:import:gwt.material.design.addins.client"
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+<m:MaterialRow addStyleNames="code">
+  <m:MaterialRow>
+   <m:MaterialTitle title="Gadgets" />
+   <m:MaterialColumn grid="l3">
+    <m:MaterialCard backgroundColor="WHITE">
+     <m:MaterialCardImage waves="LIGHT">
+      <client:webp.MaterialWebpImage url="https://images-na.ssl-images-amazon.com/images/I/410xpKCxJSL._SL500_AC_SS350_.jpg" fallbackExtension="jpg"/>
+      <m:MaterialCardTitle/>
+     </m:MaterialCardImage>
+     <m:MaterialCardContent textColor="BLACK">
+      <m:MaterialLabel text="JBL Speakers" />
+     </m:MaterialCardContent>
+     <m:MaterialCardAction>
+      <m:MaterialLink text="RENT" />
+      <m:MaterialLink text="EXCHANGE" />
+     </m:MaterialCardAction>
+    </m:MaterialCard>
+   </m:MaterialColumn>
+   <m:MaterialColumn grid="l3">
+    <m:MaterialCard backgroundColor="WHITE">
+     <m:MaterialCardImage waves="LIGHT">
+      <client:webp.MaterialWebpImage url="https://images-na.ssl-images-amazon.com/images/I/51Mo79ZaftL._SX425_.jpg" fallbackExtension="jpg"/>
+      <m:MaterialCardTitle/>
+     </m:MaterialCardImage>
+     <m:MaterialCardContent textColor="BLACK">
+      <m:MaterialLabel text="Home Security Camera" />
+     </m:MaterialCardContent>
+     <m:MaterialCardAction>
+      <m:MaterialLink text="RENT"/>
+      <m:MaterialLink text="EXCHANGE"/>
+     </m:MaterialCardAction>
+    </m:MaterialCard>
+   </m:MaterialColumn>
+   <m:MaterialColumn grid="l3">
+    <m:MaterialCard backgroundColor="WHITE">
+     <m:MaterialCardImage waves="LIGHT">
+      <client:webp.MaterialWebpImage url="https://images-na.ssl-images-amazon.com/images/I/71yKTpPdTSL._SX425_.jpg" fallbackExtension="jpg"/>
+      <m:MaterialCardTitle />
+     </m:MaterialCardImage>
+     <m:MaterialCardContent textColor="BLACK">
+      <m:MaterialLabel text="Smart Watch" />
+     </m:MaterialCardContent>
+     <m:MaterialCardAction>
+      <m:MaterialLink text="RENT"/>
+      <m:MaterialLink text="EXCHANGE"/>
+     </m:MaterialCardAction>
+    </m:MaterialCard>
+   </m:MaterialColumn>
+   <m:MaterialColumn grid="l3">
+    <m:MaterialCard backgroundColor="WHITE">
+     <m:MaterialCardImage waves="LIGHT">
+      <client:webp.MaterialWebpImage url="http://www.buytechnow.co.uk/wp-content/uploads/2019/02/all-new-echo-show-2nd-gen-premium-sound-and-a-vibrant-10-hd-screen-black.jpg" fallbackExtension="jpg"/>
+      <m:MaterialCardTitle/>
+     </m:MaterialCardImage>
+     <m:MaterialCardContent textColor="BLACK">
+      <m:MaterialLabel text="Amazon Echo" />
+     </m:MaterialCardContent>
+     <m:MaterialCardAction>
+      <m:MaterialLink text="RENT"/>
+      <m:MaterialLink text="EXCHANGE"/>
+     </m:MaterialCardAction>
+    </m:MaterialCard>
+   </m:MaterialColumn>
+   
+ </m:MaterialRow>
+</m:MaterialRow>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

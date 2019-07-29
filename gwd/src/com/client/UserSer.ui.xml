@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		 <h1>Planner's Services</h1> 
+ <m:MaterialRow  grid="s5 m6 l6">
+  <m:MaterialColumn grid="s12 m8 l6" offset="l4" >
+  <m:MaterialTitle title="Company Name"
+				textColor="PINK_DARKEN_2" />
+  <m:MaterialTextBox   ui:field="t1"   iconType="FACE" width="600px"/>
+   <m:MaterialTitle title="Gathering"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t7"      width="600px"/>
+    <m:MaterialTitle title="Venue"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t2"   width="600px"/>
+    <m:MaterialTitle title="Decoration"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t3"   width="600px"/>
+    <m:MaterialTitle title="Caterer"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t4"   width="600px" />
+    <m:MaterialTitle title="Labour"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t5"   width="600px" />
+    <m:MaterialTitle title="Add on"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t6"  width="600px"/>
+    <m:MaterialTitle title="total"
+				textColor="PINK_DARKEN_2" />
+   <m:MaterialTextBox   ui:field="t8"   width="600px"/>
+   <m:MaterialButton ui:field="select" text="Selected" width="400px" backgroundColor="PINK_DARKEN_2" waves="LIGHT"/>
+   
+   <!-- <m:MaterialTextBox   ui:field="t5"  type="PASSWORD" label="Confirm Password" width="600px" />
+   <m:MaterialTextBox   ui:field="t6"   label="GSTD ID:-" width="600px" /> -->
+ </m:MaterialColumn>
+</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 

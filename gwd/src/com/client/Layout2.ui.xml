@@ -1,0 +1,184 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+
+	xmlns:ma="urn:import:gwt.material.design.client.data.component">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	
+	.customFooter {
+		padding-left: 0 !important;
+		margin-bottom: 1px;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+
+
+
+		<m:MaterialRow addStyleNames="code">
+			<!-- <m:MaterialBadge text="NEW FEATURE" textColor="WHITE" shadow="1" 
+				layoutPosition="RELATIVE" float="RIGHT" backgroundColor="PINK_DARKEN_1" /> -->
+
+			<m:MaterialNavBar width="100%"
+				backgroundColor="PINK_DARKEN_3">
+				<m:MaterialNavBrand marginLeft="60" href="#Test"
+					textColor="WHITE" float="LEFT" text="Just For You" />
+				<m:MaterialNavSection ui:field="navSection"
+					float="RIGHT">
+					<m:MaterialLink ui:field="home" iconType="HOME"
+						paddingLeft="360" text="HOME" />
+					<m:MaterialLink ui:field="r"
+						iconType="ACCOUNT_CIRCLE" iconPosition="LEFT" text="REGISTRATION"
+						textColor="WHITE" waves="LIGHT" activates="Akanksha" />
+					<m:MaterialDropDown activator="Akanksha"
+						constrainWidth="true" backgroundColor="WHITE" waves="LIGHT"
+						textColor="PINK_DARKEN_3" width="40%">
+						<m:MaterialLink ui:field="user" text="USER"
+							backgroundColor="PINK_DARKEN_3" textColor="WHITE" waves="LIGHT"
+							iconType="FACE" iconPosition="LEFT" />
+						<m:MaterialLink ui:field="planner" text="PLANNER"
+							backgroundColor="PINK_DARKEN_3" textColor="WHITE" waves="LIGHT"
+							iconType="FACE" iconPosition="LEFT" />
+					</m:MaterialDropDown>
+					<m:MaterialLink ui:field="l"
+						iconType="ACCOUNT_CIRCLE" iconPosition="LEFT" text="LOGIN"
+						textColor="WHITE" waves="LIGHT" activates="Ak" />
+					<m:MaterialDropDown activator="Ak"
+						constrainWidth="true" backgroundColor="WHITE" waves="LIGHT"
+						textColor="PINK_DARKEN_2" width="40%">
+						<m:MaterialLink ui:field="userl" text="USER"
+							backgroundColor="PINK_DARKEN_3" textColor="WHITE" waves="LIGHT"
+							iconType="FACE" iconPosition="LEFT" />
+						<m:MaterialLink ui:field="plannerl" text="PLANNER"
+							backgroundColor="PINK_DARKEN_3" textColor="WHITE" waves="LIGHT"
+							iconType="FACE" iconPosition="LEFT" />
+					</m:MaterialDropDown>
+
+					<m:MaterialDialog ui:field="dialog" type="FIXED_FOOTER"
+						 inDuration="500" outDuration="500">
+						<m:MaterialDialogContent>
+							<m:MaterialTitle title="Just For You"
+								description="Just over a year ago,we became fascinated by the idea of developing a web application where people can compare the event planner according to their location as well as budget.While their are many other way to have a dream event, we realised that there is no better way to experience the best until you have many choices."
+								textColor="PINK_LIGHTEN_3" fontSize="1.25em"/>
+								<m:MaterialTitle title="Contact Details"
+								description="phone no:- 9876543210"
+								textColor="PINK_LIGHTEN_3" fontSize="1.25em"/>
+								<m:MaterialTitle title="Email address"
+								description="a@gmail.com"
+								textColor="PINK_LIGHTEN_3" fontSize="1.25em"/>
+						</m:MaterialDialogContent>
+						<m:MaterialDialogFooter>
+							<m:MaterialButton ui:field="btnCloseDialog"
+								text="Close Dialog" type="FLAT" />
+						</m:MaterialDialogFooter>
+					</m:MaterialDialog>
+					<m:MaterialLink text="About us" iconType="INFO_OUTLINE"
+						ui:field="btnDialog" waves="LIGHT" />
+						
+						
+						
+						<!-- <m:MaterialDialog ui:field="dialog1" type="FIXED_FOOTER"
+						 inDuration="500" outDuration="500">
+						<m:MaterialDialogContent>
+							<m:MaterialTitle title="Contact Details"
+								description="phone no:- 9876543210"
+								textColor="BLACK" fontSize="1.25em"/>
+								<m:MaterialTitle title="Email address"
+								description="a@gmail.com"
+								textColor="BLACK" fontSize="1.25em"/>
+						</m:MaterialDialogContent>
+						<m:MaterialDialogFooter>
+							<m:MaterialButton ui:field="btnCloseDialog1"
+								text="Close Dialog" type="FLAT" />
+						</m:MaterialDialogFooter>
+					</m:MaterialDialog>
+					<m:MaterialLink text="Contact us" iconType="PERSON"
+						ui:field="btnDialog1" waves="LIGHT" />
+ -->
+
+					<!--  <m:MaterialLink ui:field="Aboutus" iconType="PERSON" text="About 
+						Us" />-->
+					<!-- <m:MaterialLink text="About us" > -->
+					<!-- <m:MaterialLink ui:field="about" iconType="DASHBOARD" textColor="WHITE" 
+						waves="LIGHT" /> -->
+					<!-- </m:MaterialTooltip> -->
+					<!-- <m:MaterialTooltip text="Starter"> <m:MaterialLink iconType="MORE_VERT" 
+						textColor="WHITE" waves="LIGHT" /> </m:MaterialTooltip> -->
+
+
+				</m:MaterialNavSection>
+			</m:MaterialNavBar>
+		</m:MaterialRow>
+
+
+
+		<m:MaterialSlider ui:field="slider" duration="300"
+			interval="2000" >
+			<m:MaterialSlideItem>
+				<m:MaterialImage
+					url="https://i.pinimg.com/originals/9c/66/0b/9c660bd9ad55bd1b20a4fc7a2a624341.jpg" />
+				<m:MaterialSlideCaption textAlign="CENTER">
+					<m:MaterialTitle textColor="RED_LIGHTEN_1"
+						fontSize="6em" />
+				</m:MaterialSlideCaption>
+			</m:MaterialSlideItem>
+			<m:MaterialSlideItem>
+				<m:MaterialImage
+					url="http://www.ileafritz.com/blog/wp-content/uploads/2018/03/wedding-reception-entrance-800x430.jpg" />
+				<m:MaterialSlideCaption textAlign="CENTER">
+					<m:MaterialTitle textColor="RED_LIGHTEN_1"
+						fontSize="6em" />
+				</m:MaterialSlideCaption>
+			</m:MaterialSlideItem>
+			<m:MaterialSlideItem>
+				<m:MaterialImage
+					url="hey.jpg" />
+				<m:MaterialSlideCaption textAlign="CENTER">
+					<m:MaterialTitle textColor="PURPLE_LIGHTEN_2"
+						fontSize="6em" />
+				</m:MaterialSlideCaption>
+			</m:MaterialSlideItem>
+
+
+
+		</m:MaterialSlider>
+		<!-- <m:MaterialRow addStyleNames="code"> <m:MaterialFooter ui:field="footer" 
+			addStyleNames="{style.customFooter}"> <m:MaterialRow> <m:MaterialColumn grid="s12 
+			m6 l6"> <m:MaterialTitle textColor="WHITE" title="Join The Discussion" description="We 
+			provide Gitter Chat rooms in order for GWT Developers discussed and collaborate 
+			about GWT Material Design and Phonegap Integration." /> <m:MaterialButton 
+			ui:field="btnChat" text="CHAT" waves="LIGHT" /> </m:MaterialColumn> <m:MaterialColumn 
+			grid="s12 m6 l6"> <m:MaterialTitle textColor="WHITE" title="GWT Phonegap" 
+			description="We provide Gitter Chat rooms in order for GWT Developers discussed 
+			and collaborate about GWT Material Design and Phonegap Integration." /> <m:MaterialButton 
+			ui:field="btnDownloadPhonegap" text="GWT Material APK" waves="LIGHT" /> </m:MaterialColumn> 
+			</m:MaterialRow> <m:MaterialFooterCopyright addStyleNames="footer-copyright"> 
+			<m:MaterialLabel text="© 2015 Copyright GWT Material" /> </m:MaterialFooterCopyright> 
+			</m:MaterialFooter> </m:MaterialRow> -->
+
+
+
+
+
+
+
+
+
+		<!-- <m:MaterialFooter> <m:MaterialRow backgroundColor="PINK_DARKEN_3" 
+			width="90%" paddingTop="40"> <m:MaterialColumn grid="s12 m6 l6" paddingTop="40"> 
+			<m:MaterialTitle textColor="WHITE" title="Join The Discussion" description="We 
+			provide Gitter Chat rooms in order for GWT Developers discussed and collaborate 
+			about GWT Material Design and Phonegap Integration." /> <m:MaterialButton 
+			ui:field="btnChat" text="CHAT" waves="LIGHT" /> </m:MaterialColumn> <m:MaterialColumn 
+			grid="s12 m6 l6"> <m:MaterialTitle textColor="WHITE" title="GWT Phonegap" 
+			description="We provide Gitter Chat rooms in order for GWT Developers discussed 
+			and collaborate about GWT Material Design and Phonegap Integration." /> <m:MaterialButton 
+			ui:field="btnDownloadPhonegap" text="GWT Material APK" waves="LIGHT" /> </m:MaterialColumn> 
+			</m:MaterialRow> <m:MaterialFooterCopyright> <m:MaterialLabel text="© 2015 
+			Copyright GWT Material" /> </m:MaterialFooterCopyright> </m:MaterialFooter> -->
+	</g:HTMLPanel>
+</ui:UiBinder>
+ 

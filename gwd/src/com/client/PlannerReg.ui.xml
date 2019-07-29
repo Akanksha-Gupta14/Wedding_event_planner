@@ -1,0 +1,79 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	};
+	.block{
+      display: block;
+      margin-bottom: 10px;
+    }
+	
+	</ui:style>
+	<g:HTMLPanel>
+	
+
+   
+   
+  <table> 
+<!--  <h1>Planner's Registration</h1> 
+ <m:MaterialRow  grid="s5 m6 l6">
+  <m:MaterialColumn grid="s12 m8 l6" offset="l4" > -->
+  
+  <m:MaterialPanel marginLeft="420" paddingBottom="10" >
+		<m:MaterialRow width="160%"  >
+      <m:MaterialRow height="150%">
+      <m:MaterialColumn grid="l4" height="150%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+			 <m:MaterialCardTitle text="Planner's Registration"
+				textColor="PINK_DARKEN_2" paddingLeft="120" />
+   <m:MaterialTextBox   ui:field="t1"    label="Company's Name"  iconType="EDIT" />
+   <m:MaterialTextBox   ui:field="t2"   type="EMAIL" label="Email" iconType="ACCOUNT_CIRCLE"/>
+   <m:MaterialTextBox   ui:field="t11"  label="mobile no."  iconType="PHONE" />
+   <m:MaterialTextBox   ui:field="t4"  type="PASSWORD" label="Password" iconType="LOCK_OUTLINE" />
+   <m:MaterialTextBox   ui:field="t5"  type="PASSWORD" label="Confirm Password" iconType="LOCK"/>
+   <m:MaterialTextBox   ui:field="t6"   label="GSTD ID:-" iconType="CHECK_CIRCLE"  />
+   <m:MaterialLabel text="Payment" />
+   <m:MaterialRadioButton   type="GAP" ui:field="t9" name="payment" text="Credit card" addStyleNames="{style.block}"/>
+   <m:MaterialRadioButton type="GAP" ui:field="t10" name="payment" text="Debit Card" addStyleNames="{style.block}"    />
+ </m:MaterialCardContent>
+   <m:MaterialCardAction>
+   <m:MaterialButton   ui:field="t8"    waves="LIGHT" text="Submit" width="100%" backgroundColor="PINK_DARKEN_2"   textColor="WHITE"/>
+   </m:MaterialCardAction>
+   </m:MaterialCard>
+  </m:MaterialColumn>
+ </m:MaterialRow>
+ </m:MaterialRow>
+ </m:MaterialPanel>
+ 
+<tr>
+<td>
+
+  
+   <m:MaterialRow  grid="s5 m6 l6">
+  <m:MaterialColumn grid="s12 m8 l6" offset="l4" >
+  </m:MaterialColumn>
+ </m:MaterialRow>
+</td>
+</tr>
+</table> 
+
+
+
+
+  <!-- <m:MaterialButton   ui:field="t8"    waves="LIGHT" text="Submit" width="400px" backgroundColor="PINK_DARKEN_2"   textColor="WHITE">
+  </m:MaterialButton>   -->   
+  
+</g:HTMLPanel>
+</ui:UiBinder> 
+	
+	
+	
+	
+	
+	

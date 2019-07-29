@@ -1,0 +1,3 @@
+# Module gwd
+# RPC service class, partial path of RPC policy file
+com.client.GreetingService, 7C4F61F0EF2DAC00B9D9599D57556A0A.gwt.rpc

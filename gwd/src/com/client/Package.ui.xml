@@ -1,0 +1,59 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:m.html="urn:import:gwt.material.design.client.ui.html">
+	<ui:style>
+	}
+	</ui:style>
+
+	<g:VerticalPanel>
+		<m:MaterialPanel textAlign="LEFT" paddingLeft="300"
+			paddingRight="300" paddingTop="50">
+
+			<m:MaterialTitle title="LOCATION"
+				textColor="PINK_DARKEN_2" />
+
+			<m:MaterialListBox 
+				grid="s12" ui:field="location" textColor="PINK_DARKEN_2">
+				<m.html:Option textColor="PINK_DARKEN_2" text="Agra" />
+				<m.html:Option text="jaipur" textColor="PINK_DARKEN_2" />
+				<m.html:Option text="lucknow"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Delhi" textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Udaipur"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Indoor" textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Mumbai" textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Kolkata"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Chennai"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="Noida" textColor="PINK_DARKEN_2" />
+			</m:MaterialListBox>
+		</m:MaterialPanel>
+		<m:MaterialPanel textAlign="LEFT" paddingLeft="300"
+			paddingRight="300" paddingTop="50">
+
+			<m:MaterialTitle title="BUDGET"
+				textColor="PINK_DARKEN_2" />
+
+			<m:MaterialListBox 
+				grid="s12" ui:field="budget" textColor="PINK_DARKEN_2">
+				<m.html:Option text="650000"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="1500000"
+					textColor="PINK_DARKEN_2" />
+				<m.html:Option text="2000000"
+					textColor="PINK_DARKEN_2" />
+			</m:MaterialListBox>
+		</m:MaterialPanel>
+		<m:MaterialPanel textAlign="LEFT" paddingLeft="300" paddingRight="300" >
+		<m:MaterialButton ui:field="b1" waves="LIGHT"
+			text="show name" backgroundColor="PINK_DARKEN_2" textColor="WHITE"/>
+		<m:MaterialCollection ui:field="t1">
+		</m:MaterialCollection>
+	</m:MaterialPanel>
+	</g:VerticalPanel>
+
+</ui:UiBinder> 

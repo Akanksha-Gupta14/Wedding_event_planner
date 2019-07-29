@@ -1,0 +1,36 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:m.html="urn:import:gwt.material.design.client.ui.html"
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Planner's List</h1>
+<m:MaterialRow  grid="s5 m6 l6">
+  <m:MaterialColumn grid="s12 m8 l6" offset="l4" >
+      <m:MaterialTitle title="Planner's List" textColor="PINK_DARKEN_2" />
+     
+        <m:MaterialListBox placeholder="Planner's List" grid="s12" ui:field="location1" textColor="PINK_DARKEN_2">
+        <m.html:Option text="Event Planner1"/>
+        <m.html:Option text="Event Planner 2"/>
+        <m.html:Option text="Event Planner 3"/>
+        <m.html:Option text="Event Planner 4"/>
+        <m.html:Option text="Event Planner 5"/>
+        <m.html:Option text="Event Planner 6"/>
+        <m.html:Option text="Event Planner 7"/>
+        <m.html:Option text="Event Planner 8"/>
+        <m.html:Option text="Event Planner 9"/>
+        <m.html:Option text="Event Planner 10"/>
+      </m:MaterialListBox>
+    
+    <m:MaterialButton  ui:field="select"  text="Select" waves="LIGHT" backgroundColor="PINK_DARKEN_2"   textColor="WHITE"  width="40%"  />
+	 <m:MaterialButton  ui:field="Back"  text="Back" waves="LIGHT" backgroundColor="PINK_DARKEN_2"   textColor="WHITE"  width="40%"  />	
+ </m:MaterialColumn>
+</m:MaterialRow>	
+	</g:HTMLPanel>
+</ui:UiBinder> 
