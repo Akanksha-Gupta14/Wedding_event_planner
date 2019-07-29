@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="E:/gwt-2.8.2/gwt-user.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/gwt-2.8.2/gwt-dev.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/gwt-2.8.2/validation-api-1.0.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/gwt-2.8.2/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/gwt-material-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/gwt-material-addins-2.2-rc1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/gwt-material-jquery-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/gwt-material-table-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/This PC/eclipse-workspace/gmd1/war/WEB-INF/lib/gwt-material-themes-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/lib/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/lib/couchdb4j-0.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/lib/httpclient-4.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/lib/httpcore-4.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
